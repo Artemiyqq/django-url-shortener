@@ -1,2 +1,1 @@
-# django_url_shortener
-My pet-project is a URL shortener, which is a web application that allows users to enter long URLs and convert them into short, easy-to-remember URLs.
+My project is a URL shortener, which is a web application that allows users to enter long URLs and convert them into short, easy-to-remember URLs. I built this application using Django, a Python web framework, along with HTML, CSS, and JavaScript to create the user interface. Additionally, I utilized a PostgreSQL database to store and retrieve the URLs.
