@@ -18,8 +18,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['pet-project-urls-hortener.up.railway.app', '127.0.0.1']
-CSRF_TRUSTED_ORIGINS = ['https://pet-project-urls-hortener.up.railway.app']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
