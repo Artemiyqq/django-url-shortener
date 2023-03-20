@@ -26,5 +26,8 @@ This project has been prepared for deployment on the Railway. For other deployme
 
 * Now everything should work as it should.
 
+## Authors
+Only [me](https://github.com/Artemiyqq)
+
 ## License
 This project is licensed under the MIT Licence—see the LICENSE.md file for details.
