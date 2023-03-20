@@ -18,7 +18,8 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = [env('SITE_DOMAIN'), '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = [env('SITE_URL')]
 
 
 # Application definition
@@ -72,9 +73,6 @@ WSGI_APPLICATION = 'url_shortener.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': env('DATABASE_NAME'),
-        'USER': env('DATABASE_USER'),
-        'PASSWORD': env('DATABASE_PASS'),
     }
 }
 
