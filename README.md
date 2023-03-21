@@ -59,8 +59,11 @@ python manage.py runserver
 ```
 * Now, you can follow [the link](http://127.0.0.1:8000/) and start using the project the way you want.
 
+## Deployment
+If you are interested in deploying this project, there is a separate git branch with files prepared for deployment to Railway and modified README.md for this purpose.
+
 ## License
-This project is licensed under the MIT Licence—see the LICENSE.md file for details.
+This project is licensed under the MIT Licence — see the LICENSE.md file for details.
 
 ## Authors
 Only [me](https://github.com/Artemiyqq)
