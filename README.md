@@ -24,7 +24,7 @@ This project has been prepared for deployment on the Railway. For other deployme
 7. Get the secret key for your app from [https://djecrety.ir/](https://djecrety.ir/) or from somewhere else.
 8. Add the secret key from the previous step as `SECRET_KEY` variable to this app.
 
-* Now everything should work as it should.
+* That is! Now everything should work as it should.
 
 ## Authors
 Only [me](https://github.com/Artemiyqq)
